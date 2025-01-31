@@ -19,8 +19,6 @@ function draw(){
     for (let i = 0; i < board.length;i++){
         board[i].addEventListener("mouseover", ()=>{
             let ran = `rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`
-            board[i].style.opacity = a + 0.1;
-            console.log(a)
             board[i].style.backgroundColor = ran;
         });
     };
